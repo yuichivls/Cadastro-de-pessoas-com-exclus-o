@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'cadPessoaExcluir';
+  nome = null;
+  pessoas = [
+    'Pessoa 1',
+    'Pessoa 2'
+  ];
+  adicionar(nome){
+    this.pessoas.push(this.nome);
+    this.nome = null;
+  }
+  deletar(nome){
+    this.pessoas.splice(this.nome, 1);
+  }
 }

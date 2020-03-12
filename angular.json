@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "cadPessoaExcluir": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "cadPessoaExcluir"
+    }
+  },
+  "defaultProject": "cadPessoaExcluir",
+  "cli": {
+    "analytics": "a7174034-62d7-4162-b643-80ec1f610afb"
+  }
 }
